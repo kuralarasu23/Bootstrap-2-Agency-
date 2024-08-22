@@ -132,11 +132,11 @@ body {
 
 .overlay {
   position: absolute;
-  top: 23px;
+  top:0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 93%;
+  height: 75.5%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -228,6 +228,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #212529;
+}
+.button3 button{
+  cursor: not-allowed;
 }
 
 @media (min-width: 992px) {
